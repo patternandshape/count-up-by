@@ -5,3 +5,19 @@ var countUpBy = function(countBy,max){
   }
   return countArray;
 }
+// END BUSINESS LOGIC
+
+
+$(document).ready(function() {
+  $("form#countForm").submit(function(event) {
+    event.preventDefault();
+    var countBy = parseInt($("#countFactor").val());
+    var countMax = parseInt($("#countMax").val());
+    var resultArray = countUpBy(countBy,countMax);
+    var result = resultArray.toString();
+    var newResult = result.replace(/,/g, ', ');
+    $(".output").text(newResult);
+
+
+  });
+});
