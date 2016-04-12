@@ -1,32 +1,30 @@
 # Count Up By
 
-#### Find the multiples of one number that are less than another number
+January 21, 2016
 
-#### By Abby Rolling and Molly Curtin
+##### By Molly Curtin &amp; Abby Rolling
 
-## Description
+### Description
 
 A program that takes 2 numbers inputted by the user, and counts in increments of the first number until it reaches the second number, then returns the result.
+
+##### Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Mocha
+* Chai
+* BDD
+* Git
 
 ## Known Bugs
 
 Will not currently accept non-integers.
 
-## Technologies Used
+##### License
 
-* Atom
-* Terminal
-* HTML
-* CSS
-* Javascript
-* jQuery
-* Bootstrap
-* DOM manipulation of elements
-* Mocha
-* Chai
+*This software is licensed under the MIT license.*
 
-### License
-
-Licensed under the GNU Public License.
-
-Copyright (c) 2016 **Abby Rolling and Molly Curtin**
+&copy;2016 **Molly Curtin &amp; Abby Rolling**
